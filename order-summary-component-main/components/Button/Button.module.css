@@ -1,0 +1,29 @@
+.button {
+  font-family: -apple-system, "Red Hat Display", BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+  width: 100%;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border-style: none;
+  box-shadow: var(--box-shadow);
+}
+
+.proceed {
+  background-color: var(--bright-blue);
+  color: white;
+}
+
+.proceed:hover {
+  background-color: var(--desaturated-blue);
+}
+
+.cancel {
+  background-color: white;
+  color: var(--desaturated-blue);
+}
+
+.cancel:hover {
+  background-color: var(--pale-blue);
+}
