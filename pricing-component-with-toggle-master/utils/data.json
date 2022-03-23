@@ -1,0 +1,50 @@
+[
+  {
+    "annually": [
+      {
+        "level": "basic",
+        "price": 199.99,
+        "storage": 500,
+        "max_users": 2,
+        "max_send": 3
+      },
+      {
+        "level": "professional",
+        "price": 249.99,
+        "storage": 1000,
+        "max_users": 5,
+        "max_send": 10
+      },
+      {
+        "level": "master",
+        "price": 399.99,
+        "storage": 2000,
+        "max_users": 10,
+        "max_send": 10
+      }
+    ],
+    "monthly": [
+      {
+        "level": "basic",
+        "price": 19.99,
+        "storage": 500,
+        "max_users": 2,
+        "max_send": 3
+      },
+      {
+        "level": "professional",
+        "price": 24.99,
+        "storage": 1000,
+        "max_users": 5,
+        "max_send": 10
+      },
+      {
+        "level": "master",
+        "price": 39.99,
+        "storage": 2000,
+        "max_users": 10,
+        "max_send": 10
+      }
+    ]
+  }
+]

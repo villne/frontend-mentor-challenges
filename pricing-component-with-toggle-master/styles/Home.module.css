@@ -1,0 +1,32 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  padding: 5rem 0;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing_container {
+  display: flex;
+  margin-top: 5rem;
+  flex-wrap: wrap;
+}
+
+.slider_container {
+  display: flex;
+  align-items: center;
+}
+
+.slider_container p {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}

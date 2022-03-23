@@ -1,0 +1,24 @@
+.button {
+  width: 100%;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.4rem;
+
+  align-self: center;
+  background: linear-gradient(
+    to right,
+    var(--linear-gradient1),
+    var(--linear-gradient2)
+  );
+  color: var(--very-light-grayish-blue);
+  text-transform: uppercase;
+  border-color: var(--very-light-grayish-blue);
+  cursor: pointer;
+  font-family: -apple-system, "Montserrat", BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.button:hover {
+  background: var(--very-light-grayish-blue);
+  color: var(--linear-gradient2);
+}
