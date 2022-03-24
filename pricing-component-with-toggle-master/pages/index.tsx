@@ -25,10 +25,14 @@ const Home: NextPage = () => {
           <p>Monthly</p>
         </div>
         <div className={styles.pricing_container}>
-          {data.map((m) =>
+          {data.map((dataPrice) =>
             checked
-              ? m.monthly.map((b) => <Pricing key={b.level} priceData={b} />)
-              : m.annually.map((a) => <Pricing key={a.level} priceData={a} />)
+              ? dataPrice.monthly.map((monthly) => (
+                  <Pricing key={monthly.level} priceData={monthly} />
+                ))
+              : dataPrice.annually.map((annually) => (
+                  <Pricing key={annually.level} priceData={annually} />
+                ))
           )}
         </div>
       </main>
